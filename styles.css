@@ -142,6 +142,7 @@ p {
     letter-spacing: 0.25px;;
 }
 
+/* BUTTON Classes */
 .primary-button {
     font-family: var(--body-font);
     font-size: var(--button-size);
@@ -175,4 +176,19 @@ p {
 .secondary-button:hover {
     opacity: 0.75;
     cursor: pointer;
+}
+
+.with-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.with-icon > img {
+    transition: transform 0.25s ease;
+}
+
+.with-icon:hover > img {
+    /* direct decendant image within the with-icon class */
+    transform: translateX(4px);
 }

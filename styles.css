@@ -490,6 +490,9 @@ p {
     display: flex;
     justify-content: center;
     color: var(--text-light);
+    /* so the image of globe stays within this section and not the top of the document */
+    position: relative;
+    padding: calc(var(--spacing-xl) * 3) 0;
 }
 
 .global-section a {
@@ -518,4 +521,13 @@ p {
     border-left: 2px solid var(--blue-1);
     padding: 0 0 0 var(--spacing-sm);
     line-height: 28px;
+}
+
+#globe {
+    /* this allows the image to overflow the bounds of the section-containers max-width */
+    max-width: 844px;
+    opacity: 25%;
+    /* based on the nearest position ancestor - thats why global-section needs position relative  */
+    position: absolute;
+    top: 8%;
 }

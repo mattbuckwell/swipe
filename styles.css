@@ -813,6 +813,14 @@ p {
         width: 100%;
         height: auto;
     }
+
+    .integration-section .column-left {
+        width: 60%;
+    }
+
+    .integration-section .column-right {
+        width: 40%;
+    }
 }
 
 /* TABLET SIZE */
@@ -825,6 +833,15 @@ p {
 
     /* UNIFIED PLATFORM Section */
     .unified-platform-section h2 {
+        width: 100%;
+    }
+
+    /* INTEGRATION Section */
+    .integration-section .card-container {
+        flex-direction: column;
+    }
+
+    .integration-section .card-container .card {
         width: 100%;
     }
 }
@@ -848,4 +865,17 @@ p {
     .partners-grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    /* INTEGRATION Section */
+    .integration-section .column-right {
+        display: none;
+    }
+}
+
+html, 
+body {
+    /* done to remove horizontal overflow when going to tablet and mobile sizes */
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
 }

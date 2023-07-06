@@ -867,6 +867,20 @@ p {
         width: 50%;
         margin: var(--spacing-md) 0;
     }
+
+    /* GETTING STARTED Section */
+    .getting-started-section .two-column {
+        align-items: center;
+    }
+
+    .getting-started-section .column-right {
+        flex-wrap: wrap;
+    }
+    
+    .getting-started-section .column-right .card {
+        width: 100%;
+        margin: var(--spacing-md) 0;
+    }
 }
 
 /* MOBILE SIZE */
@@ -930,6 +944,28 @@ p {
 
     #sessions-logo {
         width: 300px;
+    }
+
+    /* FOOTER Section */
+    .footer-section {
+        flex-wrap: wrap;
+    }
+
+    .footer-section .column {
+        width: 50%;
+        margin: var(--spacing-md) 0;
+    }
+
+    .footer-section .column a {
+        font-size: 12px;
+    }
+
+    #footer-logo {
+        width: 70px;
+    }
+
+    .footer-section .icon-link img {
+        width: 18px;
     }
 }
 

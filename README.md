@@ -1,11 +1,11 @@
 # Swipe Project
 
-Portfolio project from a HTML and CSS Bootcamp
+Portfolio project from an HTML and CSS Bootcamp
 
 ## Description
 
 <p>
-Capstone project to utilise all the teachings in the HTML and CSS Bootcamp through Udemy, this helped solidify the techniques in producing a responsive website.
+Capstone project to utilize all the teachings from the HTML and CSS Bootcamp taught through Udemy, this helped solidify the techniques in producing a responsive website.
 </p>
 
 ## What was used for the Project
@@ -25,4 +25,4 @@ Capstone project to utilise all the teachings in the HTML and CSS Bootcamp throu
 
 ## Acknowledgments
 
-Project learnt through <strong>The HTML & CSS Bootcamp 2023 Edition, Colt Steele</strong>
+Project learnt through <strong>The HTML & CSS Bootcamp 2023 Edition - Colt Steele</strong> on Udemy
